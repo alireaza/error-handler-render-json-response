@@ -6,11 +6,6 @@ namespace AliReaza\Tests\ErrorHandler\Render\Unit;
 
 use PHPUnit\Framework\TestCase;
 
-/**
- * Class JsonResponseTest
- *
- * @package AliReaza\Tests\ErrorHandler\Render\Unit
- */
 class JsonResponseTest extends TestCase
 {
     public function test_Coming_Soon()

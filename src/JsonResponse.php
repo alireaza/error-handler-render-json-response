@@ -8,17 +8,8 @@ use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\Exception\HttpExceptionInterface;
 use Throwable;
 
-/**
- * Class JsonResponse
- *
- * @package AliReaza\ErrorHandler\Render
- */
 class JsonResponse
 {
-    /**
-     * @param array|null $errors
-     * @param Throwable  $exception
-     */
     public function __invoke(?array $errors, Throwable $exception): void
     {
         if (!interface_exists(HttpExceptionInterface::class)) {

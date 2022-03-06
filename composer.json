@@ -1,6 +1,6 @@
 {
   "name": "alireaza/error-handler-render-json-response",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "type": "library",
   "license": "MIT",
   "description": "This is JSON Response package for Render Error Handler.",
@@ -29,12 +29,12 @@
   ],
   "require": {
     "php": "^8.0.0",
-    "alireaza/error-handler": "1.1.0",
+    "alireaza/error-handler": "1.2.0",
     "symfony/http-foundation": "v5.3.7",
     "symfony/http-kernel": "v5.3.7"
   },
   "require-dev": {
-    "phpunit/phpunit": "9.5.11"
+    "phpunit/phpunit": "^9.5.16"
   },
   "autoload": {
     "psr-4": {
